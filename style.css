@@ -260,7 +260,29 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
+    margin-bottom: 20px; /* Ajuste para espaçar os depoimentos dos botões */
 }
+
+.testimonial-nav {
+    margin-top: 10px;
+}
+.testimonial-nav {
+    background-color: #4361ee;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.testimonial-nav:hover {
+    background-color: #3a56d4;
+}
+
+
 
 .testimonial-card {
     background-color: #f8f9fa;
