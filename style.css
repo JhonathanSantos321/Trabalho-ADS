@@ -194,6 +194,43 @@ section h2 {
     margin-bottom: 15px;
 }
 
+/* Estilos para a classe .history (seção de infraestrutura) */
+.history {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.history h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4361ee;
+    text-align: center;
+}
+
+.infrastructure-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.infrastructure-image {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.infrastructure-text {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
 /* Seção de Cursos */
 .courses {
     background-color: #f8f9fa;
@@ -260,29 +297,7 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    margin-bottom: 20px; /* Ajuste para espaçar os depoimentos dos botões */
 }
-
-.testimonial-nav {
-    margin-top: 10px;
-}
-.testimonial-nav {
-    background-color: #4361ee;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-top: 20px;
-    transition: all 0.3s ease;
-}
-
-.testimonial-nav:hover {
-    background-color: #3a56d4;
-}
-
-
 
 .testimonial-card {
     background-color: #f8f9fa;
@@ -478,6 +493,15 @@ footer {
     section h2 {
         font-size: 28px;
     }
+    
+    /* Responsividade para .history */
+    .infrastructure-content {
+        flex-direction: column;
+    }
+    .infrastructure-image {
+        width: 100%;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -494,4 +518,13 @@ footer {
     .hero-content h1 {
         font-size: 28px;
     }
+}
+
+.photo-gallery {
+    text-align: center;
+}
+
+.fotos {
+    width: 400px;
+
 }
