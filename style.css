@@ -528,3 +528,66 @@ footer {
     width: 400px;
 
 }
+/* ===== Carrossel de Fotos ===== */
+.photo-carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .slides img {
+    width: 100%;
+    display: none;
+    transition: opacity 1s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .slides img.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .photo-carousel button.prev,
+  .photo-carousel button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(67, 97, 238, 0.8);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .photo-carousel button.prev:hover,
+  .photo-carousel button.next:hover {
+    background-color: rgba(58, 12, 163, 0.9);
+  }
+  
+  .photo-carousel button.prev { left: 15px; }
+  .photo-carousel button.next { right: 15px; }
+  
+  .dots {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active { background-color: #4361ee; }
+  

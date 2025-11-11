@@ -82,9 +82,7 @@
         </div>
         <div class="history">
           <h3>Infraestrutura do Colégio Angelo Gusso</h3>
-          <p>
-            <img src="infra.png">
-          </p>
+          <p><img src="infra.png" alt="Infraestrutura"></p>
         </div>
       </div>
     </section>
@@ -111,7 +109,7 @@
             <p>Preparação para vestibulares e carreiras profissionais.</p>
             <ul>
               <li><i class="fas fa-check"></i> Língua Portuguesa</li>
-              <li><i class="fas fa-check"></i> Química e Fisica</li>
+              <li><i class="fas fa-check"></i> Química e Física</li>
               <li><i class="fas fa-check"></i> Biologia e Filosofia</li>
               <li><i class="fas fa-check"></i> Projetos Integrados</li>
             </ul>
@@ -122,10 +120,10 @@
             <h3>Curso Técnico</h3>
             <p>Desenvolvimento de habilidades além da sala de aula.</p>
             <ul>
-              <li><i class="fas fa-check"></i> Conhcecimento Basico sobre Banco de Dados</li>
-              <li><i class="fas fa-check"></i>Ciencias de Computaçao </li>
-              <li><i class="fas fa-check"></i> Analise e desenvolvimento de sistemas</li>
-              <li><i class="fas fa-check"></i> Conhcecimento Basico sobre Front-End e Back-End</li>
+              <li><i class="fas fa-check"></i> Conhecimento Básico em Banco de Dados</li>
+              <li><i class="fas fa-check"></i> Ciências da Computação</li>
+              <li><i class="fas fa-check"></i> Análise e Desenvolvimento de Sistemas</li>
+              <li><i class="fas fa-check"></i> Fundamentos de Front-End e Back-End</li>
             </ul>
             <div class="price">Matrícula Aberta</div>
             <button class="btn primary enroll-btn">Inscrever-se</button>
@@ -134,15 +132,25 @@
       </div>
     </section>
 
-    <!-- Seção de Fotos Gerais -->
+    <!-- Seção de Fotos Gerais (Carrossel) -->
     <section id="photos" class="photos">
       <div class="container">
         <h2>Fotos Gerais do Colégio Angelo Gusso</h2>
-        <div class="photo-gallery">
-          <img class="" src="ft1.jpg" alt="Foto 1 do Colégio">
-          <img class="" src="ft2.jpg" alt="Foto 2 do Colégio">
-          <img class="" src="ft3.jpg" alt="Foto 3 do Colégio">
-          <img class="" src="ft4.jpg" alt="Foto 4 do Colégio">
+        <div class="photo-carousel">
+          <div class="slides">
+            <img src="ft1.jpg" class="active" alt="Foto 1 do Colégio">
+            <img src="ft2.jpg" alt="Foto 2 do Colégio">
+            <img src="ft3.jpg" alt="Foto 3 do Colégio">
+            <img src="ft4.jpg" alt="Foto 4 do Colégio">
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
       </div>
     </section>
@@ -157,10 +165,7 @@
               "O Colégio Angelo Gusso mudou minha vida. Os professores são incríveis e o ambiente é acolhedor. Me preparei para a faculdade com confiança!"
             </p>
             <div class="author">
-              <img
-                src="https://randomuser.me/api/portraits/women/32.jpg"
-                alt="Maria Silva"
-              />
+              <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Maria Silva" />
               <div>
                 <h4>Maria Silva</h4>
                 <p>Ex-aluna, 2022</p>
@@ -172,10 +177,7 @@
               "Como pai, vejo o crescimento dos meus filhos aqui. A educação vai além dos livros, ensinando valores essenciais."
             </p>
             <div class="author">
-              <img
-                src="https://randomuser.me/api/portraits/men/44.jpg"
-                alt="João Pereira"
-              />
+              <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="João Pereira" />
               <div>
                 <h4>João Pereira</h4>
                 <p>Pai de aluno</p>
@@ -200,12 +202,7 @@
           <form id="contact-form">
             <input type="text" id="name" placeholder="Seu Nome" required />
             <input type="email" id="email" placeholder="Seu E-mail" required />
-            <textarea
-              id="message"
-              placeholder="Sua Mensagem"
-              rows="5"
-              required
-            ></textarea>
+            <textarea id="message" placeholder="Sua Mensagem" rows="5" required></textarea>
             <button type="submit" class="btn primary">Enviar Mensagem</button>
           </form>
         </div>
@@ -241,9 +238,7 @@
           </div>
         </div>
         <div class="copyright">
-          <p>
-            &copy; 2023 Colégio Angelo Gusso. Todos os direitos reservados.
-          </p>
+          <p>&copy; 2023 Colégio Angelo Gusso. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
